@@ -1,0 +1,17 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "bot de discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --build && node ./transpiler/index.js"
+  },
+  "author": "Shadowy",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^15.12.5",
+    "discord.js": "^12.5.3",
+    "node-json-db": "^1.3.0"
+  }
+}
