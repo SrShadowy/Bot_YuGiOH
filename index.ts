@@ -38,4 +38,4 @@ client.on('message', async message => Messages(client, message));
 
 
 
-client.login('ODU5NjE3NDIwODA0MjI3MDcy.YNvTHA.JDVkD7rQfdEFW_y-2bFruXBaC9E');
+client.login('token');
